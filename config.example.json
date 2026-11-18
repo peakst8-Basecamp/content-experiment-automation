@@ -1,0 +1,35 @@
+{
+  "app_name": "peakst8 Base Camp",
+  "campaign": "cx-test-01",
+  "one_liner": "REPLACE: one sentence on what the app does for the member",
+  "audience": "REPLACE: who should see these videos (e.g. runners and HYROX athletes in India, 22-35)",
+  "cta": "Tap the link in bio to join peakst8 Base Camp",
+  "signup_url": "https://example.com/basecamp",
+  "assets_url": "REPLACE: Drive folder with screen recordings, b-roll, logo",
+  "currency": "$",
+  "budget": 1000,
+  "rate_per_1k_views": 1.0,
+  "min_views": 3000,
+  "max_payout_per_clip": 150,
+  "paid_ads_cost_per_signup": 1.5,
+  "fraud_flags": {
+    "check_above_views": 20000,
+    "min_like_rate": 0.005,
+    "min_comments": 5
+  },
+  "rules": {
+    "must": [
+      "Tag every post #ad or use the platform's paid-partnership label",
+      "Show the app on screen within the first 5 seconds",
+      "End with the call to action above",
+      "Use your own tracked link (from out/links.csv) in bio"
+    ],
+    "never": [
+      "Promise health, weight-loss or medical results",
+      "Use music or footage you don't have rights to",
+      "Buy views, likes or comments (clips get rejected and unpaid)",
+      "Write the brand as anything other than lowercase peakst8"
+    ]
+  },
+  "min_signups_for_verdict": 30
+}
